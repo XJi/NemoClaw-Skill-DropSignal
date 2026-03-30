@@ -1,0 +1,29 @@
+{
+  "price_drop_threshold": 0.25,
+  "promotion_threshold": 0.30,
+  "check_time": "16:00",
+  "timezone": "America/Los_Angeles",
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "your_email@gmail.com",
+    "password": "your_app_password",
+    "from_email": "your_email@gmail.com",
+    "to_email": "your_email@gmail.com"
+  },
+  "products": [
+    {
+      "id": "laptop_001",
+      "name": "MacBook Pro 14-inch",
+      "url": "https://www.apple.com/macbook-pro-14/",
+      "price_selector": ".price-current"
+    },
+    {
+      "id": "phone_002",
+      "name": "iPhone 15 Pro",
+      "url": "https://www.apple.com/iphone-15-pro/",
+      "price_selector": ".price-current"
+    }
+  ]
+}
